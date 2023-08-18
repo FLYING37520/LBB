@@ -1,13 +1,4 @@
 '''
-##########所有其他版本代码以此为准
-实现了动态batch
-通过每个iter都重新实例化dataloader实现动态bs
-trainCMTimeList_ep是本地记录的,包含等待时间
-
-allTrainTimeStamp+=CPTimeAvg+CMTimeAvg 是正确的时间,在pbar上显示。
-梯度计算前后的dist.barrier
-
-##########
 '''
 from datetime import timedelta
 from calendar import EPOCH
